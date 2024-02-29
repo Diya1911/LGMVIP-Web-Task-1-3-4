@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#btn {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #27ae60;
+}
+
+#Show {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Optional: Add some styling for the form header */
+h2 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    margin-top: 0;
+}
+
+/* Optional: Add some styling for the "STUDENTS DATA" header */
+h2:last-of-type {
+    margin-top: 30px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
